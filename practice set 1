@@ -1,0 +1,41 @@
+#1 Write a Python program using \n and \t to print the following string in a specific format (see the output).
+'''Sample String : "Twinkle, twinkle, little star, How I wonder what you are! Up above the world so high, Like a
+diamond in the sky. Twinkle, twinkle, little star, How I wonder what you are"
+Output :
+Twinkle, twinkle, little star,
+     How I wonder what you are!
+         Up above the world so high,
+         Like a diamond in the sky.
+Twinkle, twinkle, little star,
+     How I wonder what you are'''
+#print("Twinkle, twinkle, little star,\n\t How I wonder what you are!\n\t\t Up above te world so high,\n\t\t like a diamond in the sky.\n Twinkle,twinkle, little star,\n\t How I wonder what you are ")
+#2 area of circle
+'''a=int(input())
+print("area: ",3.14*a*a)'''
+#3 Write a Python program which accepts the user's first and last name and print them
+'''a=input("Enter first name: ")
+b=input("Enter last name: ")
+print(" ".join([a,b]))'''
+#4 Write a Python program which accepts the user’s first name and add **** (4 star after the name)
+'''a=input()
+print(a+"****")'''
+#5 Write a python program to add three numbers and take numbers from user.
+'''a=int(input())
+b=int(input())
+c=int (input())
+print(a+b+c)'''
+#6 Write a python program to add three float numbers and take numbers from user.
+'''a=float(input())
+b=float(input())
+c=float(input())
+print(a+b+c)'''
+#7 Write a python program to subtract three numbers and take numbers from user
+'''a=int(input())
+b=int(input())
+c=int(input())
+print(a-b-c)'''
+#8 Write a python program to subtract three float numbers and take numbers from user
+'''a=float(input())
+b=float(input())
+c=float(input())
+print(a-b-c)'''
