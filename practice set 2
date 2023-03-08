@@ -1,0 +1,86 @@
+#1. Take two int inputs from user and perform all Arithmetic operators
+'''a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)'''
+
+#2. Take two float inputs from user and perform all Arithmetic operators.
+'''a=float(input())
+b=float(input())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a%b)
+print(a//b)'''
+
+#3 Write diff. Bet. % and // operators.
+'''% opr gives the remainder of the two integers.
+// opr gives the quotient of the two integers eliminating decimal values.'''
+
+#4. Explain Logical Operators in python.
+'''
+and opr: 	Returns True if both statements are true
+            x < 5 and x < 10
+or opr:     Returns True if one of the statements is true
+            x < 5 or x < 4
+not opr:    Reverse the result, returns False if the result is true
+            not(x < 5 and x < 10) '''
+
+#5. Take values of length and breadth of a rectangle from user and check if it is square or not.
+'''len=int(input())
+brd=int(input())
+if len==brd:
+    print("SQUARE")
+else:
+    print("not a square")'''
+
+#6. Take two int values from user and print greatest among them
+'''a=int(input())
+b=int(input())
+print(max(a,b))'''
+
+#7. A school has following rules for grading system:
+#a. Below 25 - F
+#b. 25 to 45 - E
+#c. 45 to 50 - D
+#d. 50 to 60 - C
+#e. 60 to 80 - B
+#f. Above 80 - A
+#Ask user to enter marks and print the corresponding grade.
+'''grad=int(input())
+if grad>80:
+    print("A")
+elif grad<60 or grad>80:
+    print("B")
+elif grad<50 or grad>60:
+    print("C")
+elif grad<45 or grad>50:
+    print("D")
+elif grad<25 or grad>45:
+    print("E")
+elif grad<25:
+    print("F")
+else:
+    print("enter grade.")'''
+
+#8. A student will not be allowed to sit in exam if his/her attendance is less
+#than 75%.
+#Take following input from user
+#Number of classes held
+#Number of classes attended.
+#And print
+#percentage of class attended
+#Is student is allowed to sit in exam or not.
+s=input()
+ch=int(input())
+ca=int(input())
+per=ca/ch*100
+if per>75:
+    print("allowed")
+else:
+    print("not allowed")
